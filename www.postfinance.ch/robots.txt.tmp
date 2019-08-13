@@ -1,0 +1,76 @@
+#robots.txt for PostFinance
+
+User-agent: Googlebot
+
+Disallow: /ap/ba/fp/mobile/e-finance/home
+Allow: /ap/ba/fp/html/e-finance/home
+
+User-agent: Googlebot-Mobile
+
+Disallow: /ap/ba/fp/html/e-finance/home
+Allow: /ap/ba/fp/mobile/e-finance/home
+
+User-agent: *
+
+Disallow: /*?*p_test=*
+
+Disallow: /content/pfch/*
+Disallow: /content/help/*
+Disallow: /help/*
+
+Disallow: /de/privat/suche*
+Disallow: /fr/particuliers/recherche*
+Disallow: /it/privati/ricercare*
+Disallow: /en/private/search*
+
+Disallow: /de/detail/*
+Disallow: /fr/detail/*
+Disallow: /it/dettaglio/*
+Disallow: /en/detail/*
+
+Disallow: /medialib/*
+
+Disallow: /config/*
+Disallow: /de/config/*
+
+Disallow: /de/apple-seiten/*
+Disallow: /de/android-seiten/*
+
+Disallow: /de/siphone*
+Disallow: /fr/siphone*
+Disallow: /it/siphone*
+Disallow: /en/siphone*
+
+Disallow: /de/androidapp*
+Disallow: /fr/androidapp*
+Disallow: /it/androidapp*
+Disallow: /en/androidapp*
+
+Disallow: /de/app*
+Disallow: /fr/app*
+Disallow: /it/app*
+Disallow: /en/app*
+
+Disallow: /de/test/*
+Disallow: /fr/test/*
+Disallow: /it/test/*
+Disallow: /en/test/*
+
+Disallow: /de/testseiten/*
+Disallow: /fr/testseiten/*
+Disallow: /it/testseiten/*
+Disallow: /en/testseiten/*
+
+Disallow: /de/pfch-demo/*
+
+Disallow: /de/webapps/*
+Disallow: /fr/webapps/*
+Disallow: /it/webapps/*
+Disallow: /en/webapps/*
+
+Disallow: /de/referenzen/*
+Disallow: /fr/referenzen/*
+Disallow: /it/referenzen/*
+Disallow: /en/referenzen/*
+
+Sitemap: https://www.postfinance.ch/sitemap.xml
